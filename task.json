@@ -2,10 +2,14 @@
   "project": "Algora Bounty Hunter",
   "description": "自动赏金猎杀 - 完全在 Claude Code 内完成",
   "bounties": [
-    {"id": 1, "repository": "zio/izumi-reflect", "issueNumber": "548", "bounty": "$0 (good first issue)", "title": "Scala 3: support variance reading for opaque types", "status": "completed", "attempts": 0, "reason": "", "pr": "https://github.com/zio/izumi-reflect/pull/578"}
+    {"id": 1, "repository": "zio/izumi-reflect", "issueNumber": "548", "bounty": "$0 (good first issue)", "title": "Scala 3: support variance reading for opaque types", "status": "completed", "attempts": 0, "reason": "", "pr": "https://github.com/zio/izumi-reflect/pull/578"},
+    {"id": 2, "repository": "zio/izumi-reflect", "issueNumber": "481", "bounty": "$750", "title": "Subtype relation for refined type fails", "status": "completed", "attempts": 0, "reason": "", "pr": "https://github.com/zio/izumi-reflect/pull/577"},
+    {"id": 3, "repository": "zio/zio", "issueNumber": "9810", "bounty": "$250", "title": "ZStreams buffer(1) is buffering 2", "status": "skipped", "attempts": 2, "reason": "已有2个获得奖励的PR (#10006, #10437)"},
+    {"id": 4, "repository": "screenpipe/screenpipe", "issueNumber": "1626", "bounty": "$400", "title": "fix audio device randomly stopping sometimes", "status": "skipped", "attempts": 7, "reason": "维护者移除了赏金 - 超过3个认领者"},
+    {"id": 5, "repository": "zio/zio", "issueNumber": "9681", "bounty": "$150", "title": "Scala Native WeakConcurrentBag NPE when forking 10K fibers", "status": "skipped", "attempts": 7, "reason": "已有3+个获得奖励的PR (#9939, #10003, #10413)"}
   ],
-  "currentIndex": 1,
-  "completed": 1,
+  "currentIndex": 5,
+  "completed": 2,
   "failed": 0,
-  "skipped": 0
+  "skipped": 3
 }

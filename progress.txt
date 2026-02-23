@@ -378,3 +378,90 @@ SUCCESS
 - PR: https://github.com/zio/izumi-reflect/pull/578
 - 标签: good first issue, help wanted
 - 仓库大小: ~1.3MB (小，适合 AI 修复)
+
+---
+
+## 2026-02-23 - 赏金: $750
+
+### 仓库
+zio/izumi-reflect #481
+
+### 状态
+SUCCESS
+
+### 做了什么
+- 分析 issue: Subtype relation for refined type fails
+- 修复 LightTypeTagInheritance.scala: 添加对 NameReference vs Refinement 子类型关系的处理
+- 当比较 AInt (NameReference) 和 A { type T = Int } (Refinement) 时,检查 NameReference 是否是 Refinement 基类型的子类
+
+### 测试结果
+- PR 创建成功，等待审查
+- CLA 签署通过
+
+### 备注
+- PR: https://github.com/zio/izumi-reflect/pull/577
+- 标签: bug, 💎 Bounty
+- 仓库大小: ~1.3MB (小，适合 AI 修复)
+- 已有多人尝试此 issue (#573, #574)
+
+---
+
+## 2026-02-23 - 赏金: $250
+
+### 仓库
+zio/zio #9810
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: ZStreams buffer(1) is buffering 2
+- 检查仓库大小: ~3.3GB (Scala)
+
+### 测试结果
+N/A
+
+### 备注
+- 已有2个获得奖励的PR (#10006, #10437)
+- 超过3个认领者限制，跳过
+
+---
+
+## 2026-02-23 - 赏金: $400 (已移除)
+
+### 仓库
+screenpipe/screenpipe #1626
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: fix audio device randomly stopping sometimes
+
+### 测试结果
+N/A
+
+### 备注
+- 维护者明确移除了赏金: "there is no bounty for this anymore since it only generates poor, 1 prompt, untested, contributions"
+- 有7+个认领者，超过限制，跳过
+
+---
+
+## 2026-02-23 - 赏金: $150
+
+### 仓库
+zio/zio #9681
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: Scala Native WeakConcurrentBag NPE when forking 10K fibers
+- 检查仓库大小: ~3.3GB (Scala)
+
+### 测试结果
+N/A
+
+### 备注
+- 已有3+个获得奖励的PR (#9939, #10003, #10413)
+- 超过3个认领者限制，跳过
