@@ -57,3 +57,25 @@ N/A
 - Issue 需要在 deskflow 仓库外的工作: xdg-desktop-portal, Mutter (GNOME), KWin (KDE)
 - 这是一个复杂的特性请求，需要多个 compositor 集成
 - 判定: 不适合 AI 修复，跳过
+
+---
+
+## 2026-02-23 - 赏金: $500
+
+### 仓库
+zio/zio #8861
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: Create Loom-friendly concurrent weak set (FiberSet)
+- 检查仓库大小: ~3.3GB (Scala)
+
+### 测试结果
+N/A
+
+### 备注
+- 复杂功能请求：需要创建新的高性能并发弱引用数据结构
+- 需要基准测试、综合测试、深入集成到 Fiber 系统
+- 仓库太大，不适合 AI 修复
