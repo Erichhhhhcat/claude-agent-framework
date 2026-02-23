@@ -1,0 +1,59 @@
+# Algora Bounty Hunter - Progress Log
+
+## 工作模式
+
+**纯 Claude Code 工作流** - 一切都在 Claude Code 窗口内完成。
+
+---
+
+## 格式
+
+每个任务完成后记录：
+
+```
+## [日期] - 赏金: $XXX
+
+### 仓库
+owner/repo #ISSUE
+
+### 状态
+SUCCESS / FAILED / SKIPPED
+
+### 做了什么
+- [具体修改内容]
+
+### 测试结果
+- [测试方式]
+
+### 备注
+- [任何相关信息]
+```
+
+---
+
+## 里程碑报告
+
+每处理 5 个赏金生成一次里程碑报告。
+
+---
+
+## 2026-02-23 - 赏金: $500
+
+### 仓库
+deskflow/deskflow #8032
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: Persist Input Capture XDG Desktop Portal dialog (Wayland)
+- 检查仓库大小: ~1.3GB
+
+### 测试结果
+N/A
+
+### 备注
+- **维护者明确移除 bounty**: "We decided to remove the bounty from this PR as it was attracting only low-effort untested AI-generated PRs"
+- Issue 需要在 deskflow 仓库外的工作: xdg-desktop-portal, Mutter (GNOME), KWin (KDE)
+- 这是一个复杂的特性请求，需要多个 compositor 集成
+- 判定: 不适合 AI 修复，跳过
