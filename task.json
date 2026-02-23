@@ -4,7 +4,7 @@
   "bounties": [
     {"id": 1, "repository": "deskflow/deskflow", "issueNumber": "8032", "bounty": "$500", "title": "Issue #8032", "status": "skipped", "attempts": 0, "reason": "Bounty removed by maintainers - they explicitly don't want AI-generated PRs. Issue requires work outside repo (xdg-desktop-portal, Mutter, KWin)."},
     {"id": 2, "repository": "zio/zio", "issueNumber": "8861", "bounty": "$500", "title": "Issue #8861", "status": "skipped", "attempts": 0, "reason": "Complex feature request requiring new data structure, benchmarks, and deep ZIO fiber system knowledge. Repo size ~3.3GB too large."},
-    {"id": 3, "repository": "zio/zio", "issueNumber": "9093", "bounty": "$650", "title": "Issue #9093", "status": "pending", "attempts": 0, "reason": ""},
+    {"id": 3, "repository": "zio/zio", "issueNumber": "9093", "bounty": "$650", "title": "Issue #9093", "status": "skipped", "attempts": 0, "reason": "Complex performance optimization requiring benchmarks, deep ZIO internals knowledge, and Semaphore implementation changes. Repo too large."},
     {"id": 4, "repository": "getkyo/kyo", "issueNumber": "390", "bounty": "$650", "title": "Issue #390", "status": "pending", "attempts": 0, "reason": ""},
     {"id": 5, "repository": "zio/zio-schema", "issueNumber": "754", "bounty": "$750", "title": "Issue #754", "status": "pending", "attempts": 0, "reason": ""},
     {"id": 6, "repository": "zio/zio", "issueNumber": "9101", "bounty": "$750", "title": "Issue #9101", "status": "pending", "attempts": 0, "reason": ""},
@@ -18,8 +18,8 @@
     {"id": 14, "repository": "zio/zio", "issueNumber": "9878", "bounty": "$3,500", "title": "Issue #9878", "status": "pending", "attempts": 0, "reason": ""},
     {"id": 15, "repository": "rafael-fuente/diffractsim", "issueNumber": "69", "bounty": "$4,000", "title": "Issue #69", "status": "pending", "attempts": 0, "reason": ""}
   ],
-  "currentIndex": 2,
+  "currentIndex": 3,
   "completed": 0,
   "failed": 0,
-  "skipped": 2
+  "skipped": 3
 }
