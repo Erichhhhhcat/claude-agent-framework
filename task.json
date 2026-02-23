@@ -7,7 +7,7 @@
     {"id": 3, "repository": "zio/zio", "issueNumber": "9093", "bounty": "$650", "title": "Issue #9093", "status": "skipped", "attempts": 0, "reason": "Complex performance optimization requiring benchmarks, deep ZIO internals knowledge, and Semaphore implementation changes. Repo too large."},
     {"id": 4, "repository": "getkyo/kyo", "issueNumber": "390", "bounty": "$650", "title": "Issue #390", "status": "skipped", "attempts": 0, "reason": "Complex new feature requiring protobuf code generation and gRPC integration. Not a simple bug fix."},
     {"id": 5, "repository": "zio/zio-schema", "issueNumber": "754", "bounty": "$750", "title": "Issue #754", "status": "skipped", "attempts": 0, "reason": "Complex feature request - creating new XML codec module for zio-schema. Not a simple bug fix."},
-    {"id": 6, "repository": "zio/zio", "issueNumber": "9101", "bounty": "$750", "title": "Issue #9101", "status": "pending", "attempts": 0, "reason": ""},
+    {"id": 6, "repository": "zio/zio", "issueNumber": "9101", "bounty": "$750", "title": "Issue #9101", "status": "skipped", "attempts": 0, "reason": "Valid bug but repo size ~3.3GB too large for efficient AI debugging. Gen.fromIterable produces same data in certain conditions."},
     {"id": 7, "repository": "zio/zio", "issueNumber": "9877", "bounty": "$850", "title": "Issue #9877", "status": "pending", "attempts": 0, "reason": ""},
     {"id": 8, "repository": "Mudlet/Mudlet", "issueNumber": "8030", "bounty": "$900", "title": "Issue #8030", "status": "pending", "attempts": 0, "reason": ""},
     {"id": 9, "repository": "archestra-ai/archestra", "issueNumber": "1301", "bounty": "$1,000", "title": "Issue #1301", "status": "pending", "attempts": 0, "reason": ""},
@@ -18,8 +18,8 @@
     {"id": 14, "repository": "zio/zio", "issueNumber": "9878", "bounty": "$3,500", "title": "Issue #9878", "status": "pending", "attempts": 0, "reason": ""},
     {"id": 15, "repository": "rafael-fuente/diffractsim", "issueNumber": "69", "bounty": "$4,000", "title": "Issue #69", "status": "pending", "attempts": 0, "reason": ""}
   ],
-  "currentIndex": 5,
+  "currentIndex": 6,
   "completed": 0,
   "failed": 0,
-  "skipped": 5
+  "skipped": 6
 }

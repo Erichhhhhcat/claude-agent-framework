@@ -143,3 +143,24 @@ N/A
 ### 备注
 - 复杂功能请求：需要创建新的 zio-schema-xml 模块
 - 非简单 bug 修复
+
+---
+
+## 2026-02-23 - 赏金: $750
+
+### 仓库
+zio/zio #9101
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: zio.test.Gen generates the same data every time in certain conditions
+- 检查仓库大小: ~3.3GB (Scala)
+
+### 测试结果
+N/A
+
+### 备注
+- 这是一个真正的 bug！但仓库太大 (~3.3GB)
+- Bug 描述清晰，有复现步骤
