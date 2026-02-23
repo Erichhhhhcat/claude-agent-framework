@@ -2,24 +2,10 @@
   "project": "Algora Bounty Hunter",
   "description": "自动赏金猎杀 - 完全在 Claude Code 内完成",
   "bounties": [
-    {"id": 1, "repository": "deskflow/deskflow", "issueNumber": "8032", "bounty": "$500", "title": "Issue #8032", "status": "skipped", "attempts": 0, "reason": "Bounty removed by maintainers - they explicitly don't want AI-generated PRs. Issue requires work outside repo (xdg-desktop-portal, Mutter, KWin)."},
-    {"id": 2, "repository": "zio/zio", "issueNumber": "8861", "bounty": "$500", "title": "Issue #8861", "status": "skipped", "attempts": 0, "reason": "Complex feature request requiring new data structure, benchmarks, and deep ZIO fiber system knowledge. Repo size ~3.3GB too large."},
-    {"id": 3, "repository": "zio/zio", "issueNumber": "9093", "bounty": "$650", "title": "Issue #9093", "status": "skipped", "attempts": 0, "reason": "Complex performance optimization requiring benchmarks, deep ZIO internals knowledge, and Semaphore implementation changes. Repo too large."},
-    {"id": 4, "repository": "getkyo/kyo", "issueNumber": "390", "bounty": "$650", "title": "Issue #390", "status": "skipped", "attempts": 0, "reason": "Complex new feature requiring protobuf code generation and gRPC integration. Not a simple bug fix."},
-    {"id": 5, "repository": "zio/zio-schema", "issueNumber": "754", "bounty": "$750", "title": "Issue #754", "status": "skipped", "attempts": 0, "reason": "Complex feature request - creating new XML codec module for zio-schema. Not a simple bug fix."},
-    {"id": 6, "repository": "zio/zio", "issueNumber": "9101", "bounty": "$750", "title": "Issue #9101", "status": "skipped", "attempts": 0, "reason": "Valid bug but repo size ~3.3GB too large for efficient AI debugging. Gen.fromIterable produces same data in certain conditions."},
-    {"id": 7, "repository": "zio/zio", "issueNumber": "9877", "bounty": "$850", "title": "Issue #9877", "status": "skipped", "attempts": 0, "reason": "Complex performance/design feature - merge Fiber(Runtime) and Promise. Requires deep ZIO internals changes."},
-    {"id": 8, "repository": "Mudlet/Mudlet", "issueNumber": "8030", "bounty": "$900", "title": "Issue #8030", "status": "skipped", "attempts": 0, "reason": "Massive architectural refactoring - split Qt app into libmudlet + Qt frontend. Requires planning, migration strategy, comprehensive tests."},
-    {"id": 9, "repository": "archestra-ai/archestra", "issueNumber": "1301", "bounty": "$1,000", "title": "Issue #1301", "status": "skipped", "attempts": 0, "reason": "Complex feature - support MCP Apps. Already assigned to someone. Requires multi-UI integration and testing."},
-    {"id": 10, "repository": "zio/zio", "issueNumber": "8807", "bounty": "$1,500", "title": "Issue #8807", "status": "skipped", "attempts": 0, "reason": "Complex low-level performance optimization for fiber mailbox. Requires deep concurrent data structure knowledge. Repo ~3.3GB too large."},
-    {"id": 11, "repository": "golemcloud/golem-cli", "issueNumber": "275", "bounty": "$2,500", "title": "Issue #275", "status": "skipped", "attempts": 0, "reason": "Issue already closed (completed). Repository moved to golemcloud/golem."},
-    {"id": 12, "repository": "deskflow/deskflow", "issueNumber": "8031", "bounty": "$2,500", "title": "Issue #8031", "status": "skipped", "attempts": 0, "reason": "Bounty removed by maintainers - explicitly don't want AI-generated PRs. Requires XDG Desktop Portal, Mutter, KWin integration outside repo."},
-    {"id": 13, "repository": "zio/izumi-reflect", "issueNumber": "481", "bounty": "$2,500", "title": "Issue #481", "status": "skipped", "attempts": 0, "reason": "Valid bug with clear repro but network issues prevented cloning. Repo ~1.3MB - small and promising. Subtype relation for refined type fails in Scala 2."},
-    {"id": 14, "repository": "zio/zio", "issueNumber": "9878", "bounty": "$3,500", "title": "Issue #9878", "status": "skipped", "attempts": 0, "reason": "Complex performance optimization for ZScheduler. Requires deep understanding of ZIO's internal scheduler. Repo ~3.3GB too large."},
-    {"id": 15, "repository": "rafael-fuente/diffractsim", "issueNumber": "69", "bounty": "$4,000", "title": "Issue #69", "status": "skipped", "attempts": 0, "reason": "Not a valid bounty - just a feature question. No bounty label found on issue. Repo ~46MB (Python)."}
+    {"id": 1, "repository": "zio/izumi-reflect", "issueNumber": "548", "bounty": "$0 (good first issue)", "title": "Scala 3: support variance reading for opaque types", "status": "completed", "attempts": 0, "reason": "", "pr": "https://github.com/zio/izumi-reflect/pull/578"}
   ],
-  "currentIndex": 15,
-  "completed": 0,
+  "currentIndex": 1,
+  "completed": 1,
   "failed": 0,
-  "skipped": 15
+  "skipped": 0
 }

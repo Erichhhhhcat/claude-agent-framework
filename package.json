@@ -1,0 +1,18 @@
+{
+  "name": "algora-bounty-hunter",
+  "version": "1.0.0",
+  "description": "Automated bounty hunter agent for GitHub issues",
+  "main": "src/coordinator.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/coordinator.ts",
+    "start:10": "npx tsx src/coordinator.ts 10",
+    "dev": "npx tsx --watch src/coordinator.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0"
+  }
+}

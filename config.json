@@ -1,0 +1,26 @@
+{
+  "github": {
+    "searchKeywords": ["bounty", "reward", "paid", "hackathon", "grants"],
+    "sort": "updated",
+    "perPage": 30,
+    "useAlgora": true
+  },
+  "analysis": {
+    "minRuleScore": 30,
+    "minAiScore": 50,
+    "minTotalScore": 60
+  },
+  "execution": {
+    "timeLimits": {
+      "simple": 15,
+      "medium": 45,
+      "complex": 90
+    },
+    "maxCommitsWithoutProgress": 10,
+    "tempDir": "/tmp/bounty-hunter"
+  },
+  "logging": {
+    "enabled": true,
+    "dir": "./logs"
+  }
+}

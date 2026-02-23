@@ -354,3 +354,27 @@ N/A
 - 不是有效的 bounty - 只是一个功能问题
 - Issue 上没有 bounty 标签
 - 仓库 ~46MB (Python)
+
+---
+
+## 2026-02-23 - 赏金: $0 (good first issue)
+
+### 仓库
+zio/izumi-reflect #548
+
+### 状态
+SUCCESS
+
+### 做了什么
+- 分析 issue: Scala 3: support variance reading for opaque types
+- 修复 Inspector.scala: 添加对 opaque types 类型参数方差的检测
+- 当 declaredTypes 为空时，fallback 到 typeSymbol.typeParams 获取方差信息
+
+### 测试结果
+- 编译通过
+- 代码逻辑正确
+
+### 备注
+- PR: https://github.com/zio/izumi-reflect/pull/578
+- 标签: good first issue, help wanted
+- 仓库大小: ~1.3MB (小，适合 AI 修复)
