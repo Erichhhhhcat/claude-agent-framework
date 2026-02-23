@@ -269,3 +269,23 @@ N/A
 ### 备注
 - Issue 已经关闭 (completed)
 - 仓库已移动
+
+---
+
+## 2026-02-23 - 赏金: $2,500
+
+### 仓库
+deskflow/deskflow #8031
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: Clipboard support in XDG Desktop Portal (Wayland)
+
+### 测试结果
+N/A
+
+### 备注
+- Bounty 已被移除，维护者明确不想要 AI 生成的 PR
+- 需要在 repo 外进行 XDG Desktop Portal、Mutter、KWin 集成
