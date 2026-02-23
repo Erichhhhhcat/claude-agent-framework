@@ -333,3 +333,24 @@ N/A
 - 复杂的性能优化任务
 - 需要深入理解 ZIO 内部调度器
 - 仓库太大
+
+---
+
+## 2026-02-23 - 赏金: $4,000
+
+### 仓库
+rafael-fuente/diffractsim #69
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: Vectorial EM field model
+
+### 测试结果
+N/A
+
+### 备注
+- 不是有效的 bounty - 只是一个功能问题
+- Issue 上没有 bounty 标签
+- 仓库 ~46MB (Python)
