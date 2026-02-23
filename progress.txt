@@ -228,3 +228,24 @@ N/A
 - 复杂功能请求：支持 MCP Apps
 - 已分配给其他人 (Priyanshu1999)
 - 需要多 UI 集成和测试
+
+---
+
+## 2026-02-23 - 赏金: $1,500
+
+### 仓库
+zio/zio #8807
+
+### 状态
+SKIPPED
+
+### 做了什么
+- 分析 issue: Creating highly optimized and specialized fiber mailbox
+
+### 测试结果
+N/A
+
+### 备注
+- 复杂的低级性能优化任务
+- 需要深入的并发数据结构知识
+- 仓库太大
