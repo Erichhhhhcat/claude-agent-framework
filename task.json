@@ -190,13 +190,14 @@
       "issueNumber": "519",
       "bounty": "$4,000",
       "title": "Schema Migration System for ZIO Schema 2",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "放宽规则后可尝试"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/zio/zio-blocks/pull/1126"
     }
   ],
   "currentIndex": 0,
-  "completed": 11,
+  "completed": 12,
   "failed": 0,
   "skipped": 1
 }
