@@ -127,18 +127,20 @@ EOF
 ### Step 4: 克隆仓库
 
 1. 检查仓库大小（GitHub API）
-2. 克隆到 /tmp/（使用gh clone repo,并且使用国内的镜像以加速）
+2. 克隆到 /tmp/（使用 SSH: git clone git@github.com:OWNER/REPO.git）
 3. 配置 Git 用户
 
 ### Step 5: 修复 Issue (核心步骤)
 
-**启动嵌套 Claude Code 会话**：
+**启动嵌套 Claude Code 会话（使用 issue-fixer subagent）**：
 
 ```bash
 cd /tmp/REPO
 
-# 使用正确的嵌套方式
-env -u CLAUDECODE claude -p --dangerously-skip-permissions << 'PROMPT'
+# 使用正确的嵌套方式 + issue-fixer agent
+env -u CLAUDECODE claude -p --dangerously-skip-permissions \
+  --add-git-context # 添加 git 历史 \
+  --max-turns 100 << 'PROMPT'
 请修复这个 GitHub Issue:
 - URL: https://github.com/OWNER/REPO/issues/123
 - 标题: Issue 标题
@@ -149,8 +151,16 @@ env -u CLAUDECODE claude -p --dangerously-skip-permissions << 'PROMPT'
 1. 只修复这个 issue
 2. 运行测试确保代码正确
 3. 提交更改
+4. 如果没有 push 权限，先 fork 仓库再推送
+5. 如需要创建 PR，使用 /claim #ISSUE_NUMBER
 PROMPT
 ```
+
+**何时使用 issue-fixer subagent**:
+- 当需要修复 GitHub Issue 时
+- 当需要分析代码库并实现修复时
+- 当需要运行测试验证修复时
+- 这是默认的修复方式
 
 ### Step 6: 提交并推送
 
