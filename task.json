@@ -84,9 +84,10 @@
       "issueNumber": "9878",
       "bounty": "$850",
       "title": "ZScheduler parks+unparks workers too frequently",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "放宽规则后可尝试"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/Erichhhhhcat/zio/pull/1"
     },
     {
       "id": 9,
@@ -94,9 +95,10 @@
       "issueNumber": "9877",
       "bounty": "$750",
       "title": "Can Fiber(Runtime) and Promise be merged?",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "放宽规则后可尝试"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/Erichhhhhcat/zio/pull/2"
     },
     {
       "id": 10,
@@ -115,9 +117,10 @@
       "issueNumber": "9356",
       "bounty": "$2,500",
       "title": "Implement NIO scheduler for ZIO",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "无获奖PR"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/Erichhhhhcat/zio/pull/3"
     },
     {
       "id": 12,
@@ -142,7 +145,7 @@
     }
   ],
   "currentIndex": 0,
-  "completed": 8,
+  "completed": 10,
   "failed": 0,
   "skipped": 1
 }
