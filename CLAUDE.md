@@ -8,6 +8,44 @@
 
 ---
 
+## 📚 经验总结 (从实战中学到的经验)
+
+### 1. 克隆加速技巧
+- **使用代理**：`git clone https://gh-proxy.org/https://github.com/OWNER/REPO.git`
+- **Shallow clone**：`git clone --depth 1 --branch BRANCH URL` 避免克隆整个历史
+- **大仓库处理**：ZIO仓库3.3GB，使用shallow clone可以成功
+
+### 2. Git 配置要点
+- **必须配置**正确的Git用户信息：
+  ```bash
+  git config user.name "Erichhhhhcat"
+  git config user.email "heyum.yin@gmail.com"
+  ```
+- **避免CLA签名错误**：确保用户名与GitHub账号一致
+
+### 3. 赏金可行性判断
+- **放宽规则**：即使已有获奖PR，也可以尝试（维护者可能选择多个方案）
+- **硬性限制**：只有仓库>5GB才跳过
+- **软性限制**：赏金被移除、issue关闭才跳过
+- **检查issue状态**：`gh api repos/OWNER/REPO/issues/NUMBER --jq '.state'`
+
+### 4. Issue修复策略
+- **先学习再动手**：查看issue的已有成功PR，学习它们的解决方案
+- **使用subagent**：让专门的issue-fixer处理代码修复
+- **学习成功PR**：`gh api repos/OWNER/REPO/pulls/PR_NUMBER --jq '.title, .body'`
+
+### 5. Fork和PR创建
+- **无权限时先fork**：`gh repo fork OWNER/REPO`
+- **添加remote**：`git remote add fork git@github.com:USER/REPO.git`
+- **PR声明**：在PR body中使用 `/claim #ISSUE_NUMBER`
+
+### 6. 网络问题处理
+- **代理克隆**：使用gh-proxy.org代理解决访问慢问题
+- **推送失败**：本地commit已保存，网络恢复后可推送
+- **后台任务**：克隆等耗时操作使用后台任务
+
+---
+
 ## 运行方式 (How to Run)
 
 ```bash

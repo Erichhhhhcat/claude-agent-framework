@@ -197,10 +197,21 @@
       "attempts": 1,
       "reason": "",
       "pr": "https://github.com/zio/zio-blocks/pull/1126"
+    },
+    {
+      "id": 19,
+      "repository": "zio/zio",
+      "issueNumber": "8807",
+      "bounty": "$1,250",
+      "title": "Creating highly optimized and specialized fiber mailbox",
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/zio/zio/pull/10481"
     }
   ],
   "currentIndex": 0,
-  "completed": 15,
+  "completed": 16,
   "failed": 0,
   "skipped": 1
 }
