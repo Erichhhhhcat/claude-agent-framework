@@ -160,9 +160,10 @@
       "issueNumber": "9101",
       "bounty": "$650",
       "title": "zio.test.Gen generates the same data every time in certain conditions",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "放宽规则后可尝试"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/zio/zio/pull/10479"
     },
     {
       "id": 16,
@@ -170,9 +171,10 @@
       "issueNumber": "9093",
       "bounty": "$650",
       "title": "ZIO's Semaphore performance not too great",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "放宽规则后可尝试"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/zio/zio/pull/10480"
     },
     {
       "id": 17,
@@ -180,9 +182,10 @@
       "issueNumber": "8861",
       "bounty": "$1,500",
       "title": "Create Loom-friendly concurrent weak set (FiberSet)",
-      "status": "pending",
-      "attempts": 0,
-      "reason": "放宽规则后可尝试"
+      "status": "completed",
+      "attempts": 1,
+      "reason": "",
+      "pr": "https://github.com/Erichhhhhcat/zio/pull/5"
     },
     {
       "id": 18,
@@ -197,7 +200,7 @@
     }
   ],
   "currentIndex": 0,
-  "completed": 12,
+  "completed": 15,
   "failed": 0,
   "skipped": 1
 }
