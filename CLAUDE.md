@@ -117,10 +117,27 @@ EOF
 
 **在花费时间克隆之前，快速判断是否可行：**
 
+- **仓库大小 <= 5GB**（使用 GitHub API 检查） - 唯一硬性限制
 - Issue 描述是否清晰？
 - 是否有代码示例？
-- **仓库大小 <= 5GB**（使用 GitHub API 检查）
-- 是否在 AI 能力范围内？
+
+**放宽的规则**：
+- ✅ 即使已有获奖的PR，也应该尝试
+- ✅ 即使已有多个尝试者，也应该尝试
+- ✅ 不需要验证issue是否已被修复，直接尝试
+- ❌ 只有以下情况才跳过：
+  - 仓库大小超过5GB
+  - Issue 已关闭（state: closed）
+  - Algora 上不再显示该赏金任务
+
+**跳过条件**：
+```bash
+# 检查仓库大小
+gh api repos/OWNER/REPO --jq '.size'  # 单位KB
+
+# 检查issue状态
+gh api repos/OWNER/REPO/issues/NUMBER --jq '.state'
+```
 
 如果不可行，标记为 skipped，继续下一个。
 
@@ -131,6 +148,27 @@ EOF
 3. 配置 Git 用户
 
 ### Step 5: 修复 Issue (核心步骤)
+
+**在开始修复前，先分析 Issue 和学习已有成功方案：**
+
+1. **获取 Issue 详情**：
+```bash
+gh api repos/OWNER/REPO/issues/NUMBER --jq '.title, .body, .state'
+```
+
+2. **检查已有的成功PR**：
+```bash
+gh api repos/OWNER/REPO/issues/NUMBER/comments --jq '.[].body' | grep -i "reward\|#.*PR" | head -20
+```
+
+3. **如果有成功的PR，学习它们的解决方案**：
+```bash
+# 查看PR内容
+gh api repos/OWNER/REPO/pulls/PR_NUMBER --jq '.title, .body, .diff_url'
+# 如果可以，克隆并查看PR的代码改动
+```
+
+4. **在嵌套会话中传递这些信息给 subagent**
 
 **启动嵌套 Claude Code 会话（使用 issue-fixer subagent）**：
 
