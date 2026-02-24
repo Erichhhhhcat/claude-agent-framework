@@ -1,9 +1,9 @@
 # Algora 赏金猎杀总结
 
 ## 本轮完成统计
-- ✅ 已完成: 11 个赏金
+- ✅ 已完成: 15 个赏金
 - ⏭️ 跳过: 1 个
-- 💰 总赏金: $7,150 + $0 (good first issue)
+- 💰 总赏金: ~$15,000 + $0 (good first issue)
 
 ## 成功提交的 PR 列表
 
@@ -20,6 +20,11 @@
 | 9 | zio/zio | #9878 | $850 | https://github.com/Erichhhhhcat/zio/pull/1 |
 | 10 | zio/zio | #9877 | $750 | https://github.com/Erichhhhhcat/zio/pull/2 |
 | 11 | zio/zio | #9356 | $2,500 | https://github.com/Erichhhhhcat/zio/pull/3 |
+| 12 | Mudlet/Mudlet | #8030 | $1,000 (已取消) | https://github.com/Erichhhhhcat/Mudlet/pull/1 |
+| 13 | zio/zio | #9101 | $650 | https://github.com/zio/zio/pull/10479 |
+| 14 | zio/zio | #9093 | $650 | https://github.com/zio/zio/pull/10480 |
+| 15 | zio/zio | #8861 | $1,500 | https://github.com/Erichhhhhcat/zio/pull/5 |
+| 16 | zio/zio-blocks | #519 | $4,000 | https://github.com/zio/zio-blocks/pull/1126 |
 
 ## 跳过的赏金
 - screenpipe/screenpipe #1626 - 赏金已从Algora移除

@@ -212,26 +212,11 @@ git commit -m "fix: Issue #123 - $150 bounty"
 git push origin main
 ```
 
-### Step 7: 更新 progress.txt
+### Step 7: 更新 progress.md
 
-```
-## [日期] - 赏金: $150
-
-### 仓库
-owner/repo #123
-
-### 状态
-SUCCESS / FAILED / SKIPPED
-
-### 做了什么
-- [具体修改内容]
-
-### 测试结果
-- [测试方式]
-
-### 备注
-- [任何相关信息]
-```
+每次完成赏金后，更新 progress.md 总结文档：
+- 添加新的 PR 链接
+- 更新完成统计
 
 ### Step 8: 更新 task.json
 
@@ -241,7 +226,7 @@ jq '.bounties[INDEX].status = "completed"' task.json > tmp.json && mv tmp.json t
 jq '.completed += 1' task.json > tmp.json && mv tmp.json task.json
 
 # 提交进度
-git add task.json progress.txt
+git add task.json progress.md
 git commit -m "progress: completed X bounties"
 git push
 ```
