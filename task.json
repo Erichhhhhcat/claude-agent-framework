@@ -8,7 +8,7 @@
     {"id": 4, "repository": "screenpipe/screenpipe", "issueNumber": "1626", "bounty": "$400", "title": "fix audio device randomly stopping sometimes", "status": "skipped", "attempts": 7, "reason": "Algora上赏金已移除"},
     {"id": 5, "repository": "zio/zio", "issueNumber": "9681", "bounty": "$150", "title": "Scala Native WeakConcurrentBag NPE when forking 10K fibers", "status": "pending", "attempts": 0, "reason": "放宽规则后可尝试"},
     {"id": 6, "repository": "getkyo/kyo", "issueNumber": "390", "bounty": "$500", "title": "gRPC Support", "status": "completed", "attempts": 1, "reason": "", "pr": "https://github.com/Erichhhhhcat/kyo/pull/1"},
-    {"id": 7, "repository": "archestra-ai/archestra", "issueNumber": "1301", "bounty": "$900", "title": "Support MCP Apps", "status": "pending", "attempts": 0, "reason": "仓库524MB < 5GB可克隆"},
+    {"id": 7, "repository": "archestra-ai/archestra", "issueNumber": "1301", "bounty": "$900", "title": "Support MCP Apps", "status": "completed", "attempts": 1, "reason": "", "pr": "https://github.com/Erichhhhhcat/archestra/pull/1"},
     {"id": 8, "repository": "zio/zio", "issueNumber": "9878", "bounty": "$850", "title": "ZScheduler parks+unparks workers too frequently", "status": "pending", "attempts": 0, "reason": "放宽规则后可尝试"},
     {"id": 9, "repository": "zio/zio", "issueNumber": "9877", "bounty": "$750", "title": "Can Fiber(Runtime) and Promise be merged?", "status": "pending", "attempts": 0, "reason": "放宽规则后可尝试"},
     {"id": 10, "repository": "zio/zio-schema", "issueNumber": "754", "bounty": "$500", "title": "XML Codec", "status": "completed", "attempts": 1, "reason": "", "pr": "https://github.com/zio/zio-schema/pull/1009"},
@@ -17,7 +17,7 @@
     {"id": 13, "repository": "rafael-fuente/diffractsim", "issueNumber": "69", "bounty": "$1,000", "title": "Vectorial EM field model", "status": "pending", "attempts": 0, "reason": "仓库45MB可克隆"}
   ],
   "currentIndex": 0,
-  "completed": 4,
+  "completed": 5,
   "failed": 0,
   "skipped": 1
 }
