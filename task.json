@@ -142,10 +142,61 @@
       "attempts": 1,
       "reason": "",
       "pr": "https://github.com/rafael-fuente/diffractsim/pull/90"
+    },
+    {
+      "id": 14,
+      "repository": "Mudlet/Mudlet",
+      "issueNumber": "8030",
+      "bounty": "$1,000 (bounty cancelled)",
+      "title": "Split Mudlet up into libmudlet and a Qt front-end",
+      "status": "completed",
+      "attempts": 1,
+      "reason": "实施Phase 1 - 创建MudletColor抽象结构体",
+      "pr": "https://github.com/Erichhhhhcat/Mudlet/pull/1"
+    },
+    {
+      "id": 15,
+      "repository": "zio/zio",
+      "issueNumber": "9101",
+      "bounty": "$650",
+      "title": "zio.test.Gen generates the same data every time in certain conditions",
+      "status": "pending",
+      "attempts": 0,
+      "reason": "放宽规则后可尝试"
+    },
+    {
+      "id": 16,
+      "repository": "zio/zio",
+      "issueNumber": "9093",
+      "bounty": "$650",
+      "title": "ZIO's Semaphore performance not too great",
+      "status": "pending",
+      "attempts": 0,
+      "reason": "放宽规则后可尝试"
+    },
+    {
+      "id": 17,
+      "repository": "zio/zio",
+      "issueNumber": "8861",
+      "bounty": "$1,500",
+      "title": "Create Loom-friendly concurrent weak set (FiberSet)",
+      "status": "pending",
+      "attempts": 0,
+      "reason": "放宽规则后可尝试"
+    },
+    {
+      "id": 18,
+      "repository": "zio/zio-blocks",
+      "issueNumber": "519",
+      "bounty": "$4,000",
+      "title": "Schema Migration System for ZIO Schema 2",
+      "status": "pending",
+      "attempts": 0,
+      "reason": "放宽规则后可尝试"
     }
   ],
   "currentIndex": 0,
-  "completed": 10,
+  "completed": 11,
   "failed": 0,
   "skipped": 1
 }
