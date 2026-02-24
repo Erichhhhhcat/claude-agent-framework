@@ -14,10 +14,10 @@
     {"id": 10, "repository": "zio/zio-schema", "issueNumber": "754", "bounty": "$500", "title": "XML Codec", "status": "completed", "attempts": 1, "reason": "", "pr": "https://github.com/zio/zio-schema/pull/1009"},
     {"id": 11, "repository": "zio/zio", "issueNumber": "9356", "bounty": "$2,500", "title": "Implement NIO scheduler for ZIO", "status": "pending", "attempts": 0, "reason": "无获奖PR"},
     {"id": 12, "repository": "deskflow/deskflow", "issueNumber": "8032", "bounty": "$2,500", "title": "Persist Input Capture XDG Desktop Portal dialog (Wayland)", "status": "skipped", "attempts": 1, "reason": "赏金已被移除 - 维护者注明不再提供赏金"},
-    {"id": 13, "repository": "rafael-fuente/diffractsim", "issueNumber": "69", "bounty": "$1,000", "title": "Vectorial EM field model", "status": "pending", "attempts": 0, "reason": "仓库45MB可克隆"}
+    {"id": 13, "repository": "rafael-fuente/diffractsim", "issueNumber": "69", "bounty": "$1,000", "title": "Vectorial EM field model", "status": "completed", "attempts": 1, "reason": "", "pr": "https://github.com/rafael-fuente/diffractsim/pull/90"}
   ],
   "currentIndex": 0,
-  "completed": 5,
+  "completed": 6,
   "failed": 0,
   "skipped": 1
 }

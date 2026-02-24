@@ -144,8 +144,8 @@ gh api repos/OWNER/REPO/issues/NUMBER --jq '.state'
 ### Step 4: 克隆仓库
 
 1. 检查仓库大小（GitHub API）
-2. 克隆到 /tmp/（使用 SSH: git clone git@github.com:OWNER/REPO.git）
-3. 配置 Git 用户
+2. 克隆到 /tmp/（使用代理加速：git clone https://gh-proxy.org/https://github.com/OWNER/REPO.git）
+3. 配置 Git 用户（user.name: Erichhhhhcat, user.email: heyum.yin@gmail.com）
 
 ### Step 5: 修复 Issue (核心步骤)
 
