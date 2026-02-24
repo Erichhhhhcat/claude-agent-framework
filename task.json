@@ -6,10 +6,11 @@
     {"id": 2, "repository": "zio/izumi-reflect", "issueNumber": "481", "bounty": "$750", "title": "Subtype relation for refined type fails", "status": "completed", "attempts": 0, "reason": "", "pr": "https://github.com/zio/izumi-reflect/pull/577"},
     {"id": 3, "repository": "zio/zio", "issueNumber": "9810", "bounty": "$250", "title": "ZStreams buffer(1) is buffering 2", "status": "skipped", "attempts": 2, "reason": "已有2个获得奖励的PR (#10006, #10437)"},
     {"id": 4, "repository": "screenpipe/screenpipe", "issueNumber": "1626", "bounty": "$400", "title": "fix audio device randomly stopping sometimes", "status": "skipped", "attempts": 7, "reason": "维护者移除了赏金 - 超过3个认领者"},
-    {"id": 5, "repository": "zio/zio", "issueNumber": "9681", "bounty": "$150", "title": "Scala Native WeakConcurrentBag NPE when forking 10K fibers", "status": "skipped", "attempts": 7, "reason": "已有3+个获得奖励的PR (#9939, #10003, #10413)"}
+    {"id": 5, "repository": "zio/zio", "issueNumber": "9681", "bounty": "$150", "title": "Scala Native WeakConcurrentBag NPE when forking 10K fibers", "status": "skipped", "attempts": 7, "reason": "已有3+个获得奖励的PR (#9939, #10003, #10413)"},
+    {"id": 6, "repository": "getkyo/kyo", "issueNumber": "390", "bounty": "$500", "title": "gRPC Support", "status": "failed", "attempts": 1, "reason": "Git push 403 权限错误 - 网络/认证问题"}
   ],
-  "currentIndex": 5,
+  "currentIndex": 7,
   "completed": 2,
-  "failed": 0,
+  "failed": 1,
   "skipped": 3
 }
